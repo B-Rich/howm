@@ -343,7 +343,7 @@ key	binding
       (howm-set-configuration-for-major-mode major-mode)
       (howm-action-lock-setup)
       (howm-mode-add-font-lock)
-      (howm-reminder-add-font-lock)
+      ;;(howm-reminder-add-font-lock)
       ;; font-lock-fontify-buffer is necessary for emacs20,
       ;; while -block is necessary for emacs21.
       ;; I don't understand this. [2004-12-18]
